@@ -5,11 +5,11 @@ class Simgps < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/aovoq/simgps/releases/download/v0.1.1/simgps-aarch64-apple-darwin.tar.xz"
-      sha256 "a05edb071f368a8e957f686fd020fd351a8b24ca99e1c087087e4e7bfc872dca"
+      sha256 "2bc95bfa696d49278904a9bfe6cb79a2f537e2c3ec79620b7bad52669ad18b63"
     end
     if Hardware::CPU.intel?
       url "https://github.com/aovoq/simgps/releases/download/v0.1.1/simgps-x86_64-apple-darwin.tar.xz"
-      sha256 "6b2ba75f2e1fd4072220085ed573fc022be64a3403d369e27338489af538597c"
+      sha256 "e81c39676fd9f0d203a7b2843c98b4f516ddec4e9123d47af47da582844627cc"
     end
   end
 
